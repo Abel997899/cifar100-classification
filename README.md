@@ -153,9 +153,8 @@ notebook>=7.4.7
 ```
 
 4. **Download CIFAR-100 dataset**
-```bash
-python -c "from torchvision import datasets; datasets.CIFAR100(root='./data', train=True, download=True)"
-```
+Download dataset from release and extract
+e.g., download cifar-100-python.tar.gz from [release page](https://github.com/Amirali‑SoltaniRad/cifar100-classification/releases/tag/v1.0) and extract to ./data
 
 ## 🎮 Usage
 
@@ -291,13 +290,14 @@ cifar100-classification/
 │
 ├── app.py                      # Streamlit web application
 ├── train.ipynb                 # Training notebook
-├── best_model.pth             # Trained model checkpoint
-├── requirements.txt           # Python dependencies
-├── README.md                  # This file
-│
-├── data/                      # Dataset directory
-└── cifar-100-python/     # CIFAR-100 data
+├── requirements.txt            # Python dependencies
+├── README.md                   # This file
+├── model_checkpoint.pth        # Pretrained model checkpoint
+|__ cifar-100-python.tar.gz     # compressed dataset
+
 ```
+
+> **Note:** You can download `model_checkpoint.pth` and `cifar-100-python.tar.gz` from the [release page](https://github.com/Amirali‑SoltaniRad/cifar100-classification/releases/tag/v1.0).
 
 ## 🔧 Customization
 
@@ -357,8 +357,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 - **PyTorch Team**: For the excellent [deep learning framework](https://pytorch.org/)
 - **Streamlit Team**: For the intuitive [web app framework](https://streamlit.io/)
 - **TIMM Library**: [Ross Wightman](https://github.com/rwightman/pytorch-image-models) for data augmentation utilities
-
-- © 2025 Amirali Soltani Rad - [GitHub](https://github.com/Amirali-SoltaniRad)
+  
 ## 📚 References
 
 1. Krizhevsky, A. (2009). [Learning Multiple Layers of Features from Tiny Images](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf).
@@ -370,6 +369,8 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 ## 📧 Contact
 
 For questions or feedback, please open an issue on GitHub.
+
+**© 2025 Amirali Soltani Rad - [GitHub](https://github.com/Amirali-SoltaniRad)**
 
 ---
 
