@@ -43,7 +43,7 @@ This project implements a robust image classification pipeline for the CIFAR-100
 - [References](#references)
 - [Contact](#contact)
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Base Model
 - **Architecture**: ResNet-50
@@ -60,7 +60,7 @@ Batch Size: 32
 Input Size: 224×224
 ```
 
-## 🎓 Training Strategy
+## Training Strategy
 
 ### Three-Stage Progressive Fine-tuning
 
@@ -112,7 +112,7 @@ Input Size: 224×224
 - Label Smoothing: 0.1
 ```
 
-## 💻 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.10
@@ -158,7 +158,7 @@ Download dataset from release and extract
 
 e.g., download cifar-100-python.tar.gz from [releases page](https://github.com/Amirali-SoltaniRad/cifar100-classification/releases) and extract to ./data
 
-## 🎮 Usage
+## Usage
 
 ### Training
 
@@ -233,7 +233,7 @@ print(f"Predicted class: {predicted.item()}")
 print(f"Confidence: {confidence.item():.2%}")
 ```
 
-## 📊 Results
+## Results
 
 ### Final Performance
 
@@ -261,7 +261,7 @@ The model achieved steady convergence with:
 - Validation loss stabilization around epoch 56
 - Early stopping triggered at epoch 66
 
-## 📁 Dataset
+## Dataset
 
 ### CIFAR-100
 
@@ -285,7 +285,7 @@ Household: bottles, bowls, cans, cups, plates
 ... (95 more classes)
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 cifar100-classification/
@@ -301,7 +301,7 @@ cifar100-classification/
 
 > **Note:** You can download `model_checkpoint.pth` and `cifar-100-python.tar.gz` from the [release page](https://github.com/Amirali-SoltaniRad/cifar100-classification/releases).
 
-## 🔧 Customization
+## Customization
 
 ### Modify Training Parameters
 
@@ -338,7 +338,7 @@ model = models.efficientnet_b0(weights="IMAGENET1K_V1")
 model = models.vit_b_16(weights="IMAGENET1K_V1")
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -348,11 +348,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/MIT) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **CIFAR-100 Dataset**: [Learning Multiple Layers of Features from Tiny Images](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009
 - **ResNet Architecture**: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385), He et al., 2015
@@ -360,7 +360,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 - **Streamlit Team**: For the intuitive [web app framework](https://streamlit.io/)
 - **TIMM Library**: [Ross Wightman](https://github.com/rwightman/pytorch-image-models) for data augmentation utilities
   
-## 📚 References
+## References
 
 1. Krizhevsky, A. (2009). [Learning Multiple Layers of Features from Tiny Images](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf).
 2. He, K., Zhang, X., Ren, S., & Sun, J. (2016). [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385). CVPR.
@@ -368,7 +368,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 4. Yun, S., Han, D., Oh, S. J., Chun, S., Choe, J., & Yoo, Y. (2019). [CutMix: Regularization Strategy to Train Strong Classifiers](https://arxiv.org/abs/1905.04899). ICCV.
 5. Smith, L. N., & Topin, N. (2019). [Super-convergence: Very Fast Training of Neural Networks Using Large Learning Rates](https://arxiv.org/abs/1708.07120).
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue on GitHub.
 
